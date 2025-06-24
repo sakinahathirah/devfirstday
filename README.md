@@ -1,16 +1,44 @@
-<<<<<<< HEAD
-# React + Vite
+# DevFirstDay – Interactive Onboarding Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DevFirstDay** is a modern, responsive onboarding dashboard built with **ReactJS**. This project is designed to simulate a first-day experience for new users, using clean layout design, modular UI components, and smooth micro-interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Responsive layout using CSS Flexbox/Grid
+- Reusable UI components (cards, buttons, status blocks)
+- Clean and consistent visual design
+- Built with modern React project setup (Vite)
+- Simple animations for better user experience (planned)
+- Easily extendable for additional onboarding steps or modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# devfirstday
->>>>>>> d7383019da1b273ececd4aae2d52e1c4b93be97e
+---
+
+## 🔧 Tech Stack
+
+| Tech         | Description                     |
+|--------------|---------------------------------|
+| ReactJS      | Frontend framework              |
+| Vite         | Lightweight React tooling       |
+| CSS Modules* / Tailwind CSS* | Styling & responsive layout |
+| Netlify      | Deployment (CI/CD)              |
+| GitHub       | Version control & collaboration |
+
+
+---
+
+## 🚀 Live Demo
+
+_(Will replace with actual link after deployment)_
+
+---
+
+## 📁 Folder Structure (Preview)
+
+src/
+├── assets/ # Icons, images
+├── components/ # UI elements (Card, Button, etc.)
+├── pages/ # Main views/pages
+├── styles/ # CSS or Tailwind config
+└── App.jsx
