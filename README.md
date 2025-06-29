@@ -6,12 +6,12 @@
 
 ## 🧩 Features
 
-- Responsive layout using CSS Flexbox/Grid
-- Reusable UI components (cards, buttons, status blocks)
-- Clean and consistent visual design
-- Built with modern React project setup (Vite)
-- Simple animations for better user experience (planned)
-- Easily extendable for additional onboarding steps or modules
+- 🧭 Sidebar navigation (responsive & mobile-friendly)
+- 📋 Onboarding checklist (step-based progress)
+- 📦 Reusable UI components (card, button, dropdown)
+- 📊 Metrics section (progress overview)
+- 🎨 Clean UI layout using Flex/Grid
+- 💡 Simulated API data for projects/tasks
 
 ---
 
@@ -20,6 +20,7 @@
 | Tech         | Description                     |
 |--------------|---------------------------------|
 | ReactJS      | Frontend framework              |
+| Lucide React         | Icons       |
 | Vite         | Lightweight React tooling       |
 | CSS Modules* | Styling & responsive layout |
 | Netlify      | Deployment (CI/CD)              |
