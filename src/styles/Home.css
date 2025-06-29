@@ -1,0 +1,120 @@
+.home {
+  padding: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.welcome-banner {
+  position: relative;
+  height: 220px;
+  min-height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.welcome-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.637); /* This creates the transparency layer */
+  z-index: 1;
+}
+
+
+.welcome-text {
+  position: relative;
+  z-index: 2;
+  padding: 1rem 2rem;
+  color: #000;
+  max-width: 700px;
+  width: 100%;
+}
+
+
+.welcome-text h1 {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.welcome-text p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+
+.step-item.done {
+  border-left: 5px solid #4caf50;
+}
+
+.step-item.pending {
+  border-left: 5px solid #ccc;
+}
+
+.step-number {
+  font-weight: bold;
+  width: 2rem;
+  text-align: center;
+  color: #555;
+}
+
+.step-title {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.step-status {
+  font-size: 1.2rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem;
+  
+}
+
+
+@media (max-width: 768px) {
+  .welcome-text h1 {
+    font-size: 2.5rem;
+  }
+  .welcome-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+  .welcome-text p {
+    font-size: 0.95rem;
+  }
+}

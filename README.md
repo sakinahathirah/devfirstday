@@ -36,6 +36,8 @@ _(Will replace with actual link after deployment)_
 
 ## 📁 Folder Structure (Preview)
 
+
+```bash
 src/
 ├── assets/ # Icons, images
 ├── components/ # UI elements (Card, Button, etc.)
