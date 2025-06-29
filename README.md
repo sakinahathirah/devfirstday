@@ -21,7 +21,7 @@
 |--------------|---------------------------------|
 | ReactJS      | Frontend framework              |
 | Vite         | Lightweight React tooling       |
-| CSS Modules* / Tailwind CSS* | Styling & responsive layout |
+| CSS Modules* | Styling & responsive layout |
 | Netlify      | Deployment (CI/CD)              |
 | GitHub       | Version control & collaboration |
 
@@ -39,8 +39,10 @@ _https://dev-first-day.netlify.app/_
 
 ```bash
 src/
-├── assets/ # Icons, images
-├── components/ # UI elements (Card, Button, etc.)
-├── pages/ # Main views/pages
-├── styles/ # CSS or Tailwind config
-└── App.jsx
+├── assets/        # Icons, images, SVGs used in UI
+├── components/    # Reusable UI elements (e.g. Card, Button, Dropdown)
+├── context/       # React Context providers (e.g. for Theme, User, Sidebar toggle)
+├── data/          # Static/dummy JSON data used to simulate metrics, projects, etc.
+├── pages/         # Main route-based views (Dashboard, Projects, Profile, Settings)
+├── styles/        # Global CSS, utility classes or Tailwind config (if used)
+└── App.jsx        # Main app entry, router setup
