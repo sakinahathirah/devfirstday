@@ -30,7 +30,7 @@
 
 ## 🚀 Live Demo
 
-_(Will replace with actual link after deployment)_
+_https://dev-first-day.netlify.app/_
 
 ---
 
