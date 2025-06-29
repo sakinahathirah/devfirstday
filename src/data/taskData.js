@@ -115,7 +115,7 @@ export const metrics = [
   },
   {
     title: 'Tools Connected',
-    progress: (toolsConnected / totalTools) * 100,
+    progress: ((toolsConnected / totalTools) * 100).toFixed(2),
     type: 'progress',
     description: `${toolsConnected} of ${totalTools} tools connected`,
   },
