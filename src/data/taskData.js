@@ -115,7 +115,7 @@ export const metrics = [
   },
   {
     title: 'Tools Connected',
-    progress: toolsConnected,
+    progress: (toolsConnected / totalTools) * 100,
     type: 'progress',
     description: `${toolsConnected} of ${totalTools} tools connected`,
   },
